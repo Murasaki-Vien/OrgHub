@@ -1,0 +1,138 @@
+html,body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    padding:  8px 12px;
+    position: relative; 
+    text-decoration: none;
+}
+
+.nav .links a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav .links a:hover::after{
+    width:100%;
+}
+
+.nav .links .mainlink{
+    color: #e0501b;
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+/*All Events*/
+.events h3 {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+/*Dashboard Photo*/
+.context {
+    image-resolution: 529px 630px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 45px;
+    margin-right: 20px;
+
+}
+
+.context h2 {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+/*Search Bar*/
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #FF7A7B;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.search {
+    margin-top: 0px;
+    margin-left: 1075px;
+}
+/*Footer*/
+.footer{
+    background-color: bisque;
+    padding-bottom: 40px;
+    text-align: center;
+
+  }
+  

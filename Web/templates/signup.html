@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/cb4ab84028.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="stylesheet" href="../static/loginform.css">
+  <title>Sign up</title>
+</head>
+<body>
+    
+<div class = "nav">
+  
+  <div id="box">
+
+    
+      <div class="box1">
+
+
+        <header id="leftHeadSignUp">
+        <h1>Hello, Friend!</h1>
+         </header>
+
+
+         <form class="container1" method="POST"> 
+
+          <div class="fontuser">
+
+              <input type="text" placeholder="Name" name="username" value="" id="name" required> 
+
+             <a><i class="fa-solid fa-user"></i></a>
+
+          </div>
+
+          <div class="fontemail">
+
+              <input
+              value=""
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="Enter email"
+              /> 
+              <a><i class="fa-solid fa-envelope"></i></a>
+          </div>
+            
+          <div class="fontpassword">
+              <input type="password" placeholder="Password" name="password" value="" required> 
+              <a><i class="fa-solid fa-lock"></i></a>
+          </div>     
+            
+           <input type="submit" value="Create Account" class="signupCreate" />
+      </form>
+        <!-- </form>-->
+
+        <div class="createAccount">
+        <p>Already have an account?<a href="{{url_for('forms.SignInPage')}}">Sign in</a></p>
+
+      </div>
+
+      </div>
+    
+      <div class="box2">
+        <header id="righthead">
+        <h1>Glad you're here!</h1>
+      </header>
+        <div class=container1>
+        <p>We are delighted to have you here! Orghub was founded because we wanted to make a modern website that encourages individuals to take part in activities that are important to them. </p>
+        </div>
+      </div>
+
+    </div>
+  <!--<a href="#"><i class="fa-solid fa-envelope"></i></a>-->
+</body>
+</html>

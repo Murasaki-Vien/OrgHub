@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OrgHub</title>
+    <link rel="stylesheet" href="../static/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Navbar-->
+        <div class="nav">
+            <div class="logo">
+                <h4>Orghub.</h4>
+            </div>
+            <div class="links">
+    
+                <a href="{{ url_for('organizer.Organizer')}}"> Be an organizer </a>
+                <a href="{{ url_for('profile.Profile')}}">Profile</a>
+    
+                <a href="{{ url_for('home.LandingPage') }}">Logout</a>
+                
+            </div>
+        </div>
+        <!--events-->
+        <div class = "events">
+            <h3>All Events
+                <div class = "search">
+                    <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                        <input type="text" placeholder="Search.." name="search2">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                </div>
+            </h3>
+            
+            <hr color="#FF7A7B">
+
+    
+        </div>
+
+       
+    
+        <div class = "context">
+            <img src = "../static/image/illustration.png" alt = "" width = "420" height = "500">
+            <h2>No events yet. Just hang on!</h2>
+        </div>
+    
+        
+    </div>
+    
+    <div class="footer">
+            <h2>Orghub.</h2>
+            <div class="footerlinks">
+                <a href="#">Help</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+    </div>
+    
+    
+        
+</body>
+
+</html>

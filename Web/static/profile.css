@@ -1,0 +1,238 @@
+/*NAV*/
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    padding:  8px 12px;
+    position: relative; 
+    text-decoration: none;
+}
+
+.nav .links a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav .links a:hover::after{
+    width:100%;
+}
+
+.nav .links .mainlink{
+    color: #e0501b;
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+/*PROFILE*/
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: white;
+    font-family: 'Inter';
+  }
+   /* Assign full width inputs*/ 
+   input[type=text] { 
+       width: 80%;
+       padding: 20px 40px;
+       font-size: large;
+       margin: 27px 0;
+       margin-left: 10%;
+       margin-bottom: 0%;
+       box-sizing: border-box; 
+   }
+   #name{
+  margin-top: 0%;
+   }
+  /*profile css main*/
+  .navBar
+  {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width:100%;
+  margin-top: 0;
+  border-top: 0;
+  height: 60px;
+  }
+  .navBar i
+  {
+    padding-top: 1%;
+    font-size:200%;
+    color: #FF7A7B;
+  }
+  #iconNavAccountProfile
+  {
+    margin-left: 93%;
+  }
+  #iconNavAccountProfileBack
+  {
+    margin-left: 1%;
+  }
+  .profileUpperElement
+  {
+    margin:auto;
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: white;
+    font-family: 'Inter';
+  }
+   /* Assign full width inputs*/ 
+   input[type=text] { 
+       width: 80%;
+       padding: 20px 40px;
+       font-size: large;
+       margin: 27px 0;
+       margin-left: 10%;
+       margin-bottom: 0%;
+       box-sizing: border-box; 
+   }
+   #name{
+  margin-top: 0%;
+   }
+  /*profile css main*/
+  .navBar
+  {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width:100%;
+  margin-top: 0;
+  border-top: 0;
+  height: 60px;
+  }
+  .navBar i
+  {
+    padding-top: 1%;
+    font-size:200%;
+    color: #FF7A7B;
+  }
+  #iconNavAccountProfile
+  {
+    margin-left: 93%;
+  }
+  #iconNavAccountProfileBack
+  {
+    margin-left: 1%;
+  }
+  .profileUpperElement
+  {
+    margin:auto;
+    margin-top: 2%;
+    color: rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 5%;
+  }
+  .profileUpperElement i 
+  {
+    margin-left: 40%;
+    font-size:100px;
+  }
+  #profileUpperElementEmail input
+  {
+    margin-left: 22%;
+    width: 20%;
+    height: 10px;
+    border: none;
+    
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-weight: 200;
+    font-size:200%;
+    box-shadow: none;
+  }
+  #AccountProfile
+  {
+    padding-top: 1%;
+    text-align: center;
+  }
+  #profileLowerElement
+  {
+    margin:auto;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    margin-top: 10%;
+    color: rgba(0, 0, 0, 0.25);
+   width: 90%;
+   height: 100px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #profileLowerElement > .eventsOrganized{
+    float: left;
+    width: 50%; 
+    height: 100px;
+  }
+  #profileLowerElement > .eventsJoined
+  {
+    width: 50%; 
+    height: 100px;
+    float:left;
+  }
+  #profileLowerElement input{
+    display:block;
+    margin: auto;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-weight: 500;
+    font-size:150%;
+    padding-bottom: 1%;
+  
+  color: #000000;
+  }
+  #profileLowerElement label{
+    display:block;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size:150%;
+  
+  color: #000000;
+  }
+  
+  body{
+    margin:0%;
+  }

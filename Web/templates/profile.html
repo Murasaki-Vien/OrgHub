@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OrgHub</title>
+    <link rel="stylesheet" href="../static/profile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navBar">
+        <a id="iconNavAccountProfileBack" href="{{url_for('Dashboard.DashBoard', UserAcc=current_user.username)}}"><i class="fa-solid fa-chevron-left"></i></a>
+        <a id="iconNavAccountProfile"><i class="fa-solid fa-circle-user"></i></a>
+      </div>
+      
+    <header id="AccountProfile">
+    <h1>Account Profile</h1>
+    </header>
+    
+    
+    <div class="profileUpperElement">
+     <i class="fa-solid fa-circle-user" ></i>
+    
+
+     <!--EMAIL-->
+    <div id="profileUpperElementEmail">
+     <input type="text" placeholder="" name="ename" readonly> 
+     Name: {{current_user.userName}}
+    </div>
+   
+    <!--NAME-->
+
+    <div id="profileUpperElementEmail">
+     <input type="text"  name="ename" readonly value = "">   
+     Email: {{current_user.email}}
+     
+
+    
+    </div>
+    
+    <div id="profileLowerElement">
+    
+    <div class= "eventsJoined">
+    <input type="number" name="eventsJoined" value="0" readonly>
+    <label for="eventsJoined">Events Joined</label>
+    </div>
+    
+    <div class=eventsOrganized>
+    <input type="number" name="eventsOrganized" value="0" readonly>
+    <label for="eventsOrganized">Events Organized</label>
+    </div>
+    
+    </div>
+    
+        
+</body>
+
+</html>
